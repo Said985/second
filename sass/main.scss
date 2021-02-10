@@ -1,0 +1,253 @@
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+
+}
+
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("truetype");
+
+}
+
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");
+
+}
+
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+.font-family-light {
+  font-family: "OpenSans-Light", sans-serif;
+}
+
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif;
+}
+
+.font-family-semi-bold {
+  font-family: "OpenSans-SemiBold", sans-serif;
+}
+
+
+
+
+
+
+
+
+@mixin effect($properti,$time,$function) {
+  transition: $properti $time $function;
+  -moz-transition: $properti $time $function;
+  -o-transition: $properti $time $function;
+  -webkit-transition: $properti $time $function;
+}
+
+
+body{
+  main{
+    section{
+
+
+&#navbar{
+
+  .active{
+    background-color: #F1B301;
+    color: white;
+    border-radius: 10%;
+  }
+
+  .col-lg-6{
+    .card{
+      border: 2px solid black;
+    }
+.col-sm-7  {
+button{
+  font-size: 15px;
+
+
+}
+}
+  .s1{
+    border-radius: 50%;
+    background-color: rgba(181, 199, 201, 0.4);
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+
+    p{
+      font-size: 15px;
+      color: grey;
+    }
+  }
+    }
+&#pitsa{
+
+  .col-lg-6{
+    .card{
+      border: 2px solid black;
+    }
+.col-sm-7  {
+button{
+  font-size: 15px;
+
+
+}
+}
+  .s1{
+    border-radius: 50%;
+    background-color: rgba(181, 199, 201, 0.4);
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+
+    p{
+      font-size: 15px;
+      color: grey;
+    }
+  }
+    }
+  }
+}
+
+ .active{
+   background-color: #F1B301;
+   border-radius: 10px;
+   color: white;
+ }
+
+    }
+.nav {
+  .nav-item {
+    .nav-link {
+
+      font-size: 16px;
+      position: relative;
+
+      &:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        //transition: all 0.5s linear;
+        //-moz-transition: all 0.5s linear;
+        //-o-transition: all 0.5s linear;
+        //-webkit-transition: all 0.5s linear;
+
+        @include effect(all, 1s, linear);
+
+      }
+
+      &:hover, &.active{
+        color: #000000;
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+body{
+  header{
+    background-image: linear-gradient(90deg, white 60%, #800A7A 40%);
+
+
+
+  }
+  .salom{
+    background-color: #F5B818;
+    border-radius: 10px;
+    position: relative;
+    height: 180px;
+  }
+  .silom{
+    background-color: #800A7A;
+    border-radius: 10px;
+    position: relative;
+    height: 180px;;
+
+
+  }
+  .salomlar{
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+
+
+
+  }
+  .silomlar{
+    background-color: rgba(255, 255, 255, 0.6);
+
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-left: 20px;
+
+
+
+  }
+  .nastroy{
+    border-right: 2px solid darkgray;
+
+  }
+  .salomlari{
+    font-size: 60px;
+  }
+  .absolute{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+
+.hom{
+  background-color: #800A7A;
+  height: 410px;
+
+}
+
+.hom1{
+  margin-left: 200px;
+}
+
+.hom2{
+  position: absolute;
+  margin-left: 780px;
+  margin-top: -105px;
+}
+
+.hom3{
+  background-color: #800A7A;
+  border-radius: 50px;
+}
+
+
+.hom4{
+  margin-left: 200px;
+  margin-top: 45px;
+}
+
+

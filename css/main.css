@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif; }
+
+.font-family-light {
+  font-family: "OpenSans-Light", sans-serif; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-semi-bold {
+  font-family: "OpenSans-SemiBold", sans-serif; }
+
+body main section#navbar .active {
+  background-color: #F1B301;
+  color: white;
+  border-radius: 10%; }
+body main section#navbar .col-lg-6 .card {
+  border: 2px solid black; }
+body main section#navbar .col-lg-6 .col-sm-7 button {
+  font-size: 15px; }
+body main section#navbar .col-lg-6 .s1 {
+  border-radius: 50%;
+  background-color: rgba(181, 199, 201, 0.4);
+  position: absolute;
+  top: 0;
+  left: 56px; }
+body main section#navbar .col-lg-6 p {
+  font-size: 15px;
+  color: grey; }
+body main section#pitsa .col-lg-6 .card {
+  border: 2px solid black; }
+body main section#pitsa .col-lg-6 .col-sm-7 button {
+  font-size: 15px; }
+body main section#pitsa .col-lg-6 .s1 {
+  border-radius: 50%;
+  background-color: rgba(181, 199, 201, 0.4);
+  position: absolute;
+  top: 0;
+  left: 56px; }
+body main section#pitsa .col-lg-6 p {
+  font-size: 15px;
+  color: grey; }
+body .active {
+  background-color: #F1B301;
+  border-radius: 10px;
+  color: white; }
+
+.nav .nav-item .nav-link {
+  font-size: 16px;
+  position: relative; }
+  .nav .nav-item .nav-link:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear; }
+  .nav .nav-item .nav-link:hover, .nav .nav-item .nav-link.active {
+    color: #000000; }
+    .nav .nav-item .nav-link:hover:after, .nav .nav-item .nav-link.active:after {
+      width: 100%; }
+
+body header {
+  background-image: linear-gradient(90deg, white 60%, #800A7A 40%); }
+body .salom {
+  background-color: #F5B818;
+  border-radius: 10px;
+  position: relative;
+  height: 180px; }
+body .silom {
+  background-color: #800A7A;
+  border-radius: 10px;
+  position: relative;
+  height: 180px; }
+body .salomlar {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  margin-right: 100px;
+  margin-left: 20px; }
+body .silomlar {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  margin-right: 60px;
+  margin-left: 20px; }
+body .nastroy {
+  border-right: 2px solid darkgray; }
+body .salomlari {
+  font-size: 60px; }
+body .absolute {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.hom {
+  background-color: #800A7A;
+  height: 410px; }
+
+.hom1 {
+  margin-left: 200px; }
+
+.hom2 {
+  position: absolute;
+  margin-left: 780px;
+  margin-top: -105px; }
+
+.hom3 {
+  background-color: #800A7A;
+  border-radius: 50px; }
+
+.hom4 {
+  margin-left: 200px;
+  margin-top: 45px; }
+
+/*# sourceMappingURL=main.css.map */
